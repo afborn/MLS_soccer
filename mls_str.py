@@ -29,7 +29,7 @@ def player_compensation_history(number_of_years = 0):
 
 st.set_page_config(layout="wide")
 
-#file = r"C:\Users\aruta\Dropbox\Python\Jupyter\MLS_data\mls_clean.csv"
+
 def read_data(data_):
     datais = pd.read_csv(data_)
     return datais
