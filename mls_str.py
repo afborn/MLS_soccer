@@ -166,7 +166,7 @@ with col2:
     labels = mls_ration_pos["Pos"]
     ax_1.pie(x=mls_ration_pos["Pos ratio MLS"], autopct="%.1f%%", explode=[0.03]*len(mls_ration_pos["Pos ratio MLS"]), labels=labels, textprops={'fontsize': 10}, colors=["#CDAD00", "#5CACEE", "#9FB6CD", "#F8F8FF", "#FF7D40", "#F08080"], \
     pctdistance=0.75, labeldistance=1.2)
-    ax_1.set_title("Distribution of playing position of players \n in MLS 2007-2022", fontsize=10);
+    ax_1.set_title("Distribution of playing position of all players \n in MLS 2007-2022", fontsize=10);
     st.pyplot(pie_1)
 with col3:
     options=[10, 25, 50]
