@@ -238,37 +238,37 @@ with col2:
     if years_in_mls == 10:
         figpch, yue = player_compensation_history(6)
         st.markdown('''
-        **Players playing in MLS for {0} years**'''.format(yue))
+        **Showing players playing in MLS for {0} years**'''.format(yue))
         st.pyplot(figpch)
     elif years_in_mls == 11:
         figpch, yue = player_compensation_history(5)
         st.markdown('''
-        **Players playing in MLS for {0} years**'''.format(yue))
+        **Showing players playing in MLS for {0} years**'''.format(yue))
         st.pyplot(figpch)
     elif years_in_mls == 12:
         figpch, yue = player_compensation_history(4)
         st.markdown('''
-        **Players playing in MLS for {0} years**'''.format(yue))
+        **Showing players playing in MLS for {0} years**'''.format(yue))
         st.pyplot(figpch)
     elif years_in_mls == 13:
         figpch, yue = player_compensation_history(3)
         st.markdown('''
-        **Players playing in MLS for {0} years**'''.format(yue))
+        **Showing players playing in MLS for {0} years**'''.format(yue))
         st.pyplot(figpch)
     elif years_in_mls == 14:
         figpch, yue = player_compensation_history(2)
         st.markdown('''
-        **Players playing in MLS for {0} years**'''.format(yue))
+        **Showing players playing in MLS for {0} years**'''.format(yue))
         st.pyplot(figpch)
     elif years_in_mls == 15:
         figpch, yue = player_compensation_history(1)
         st.markdown('''
-        **Players playing in MLS for {0} years**'''.format(yue))
+        **Showing players playing in MLS for {0} years**'''.format(yue))
         st.pyplot(figpch)
     elif years_in_mls == 16:
         figpch, yue = player_compensation_history(0)
         st.markdown('''
-        **Players playing in MLS for {0} years**'''.format(yue))
+        **Showing players playing in MLS for {0} years**'''.format(yue))
         st.pyplot(figpch)
 with col3:
     st.write("")
