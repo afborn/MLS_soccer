@@ -116,7 +116,7 @@ with col1:
     ax.set_ylabel("Compensation in million $")
     ax.legend(bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
     ax.set_title("Highest paid players per year")
-    ax.set_xticks(ax.get_xticks(), ax.get_xticklabels(), rotation=60)
+    ax.set_xticks(ax.get_xticks(), ax.get_xticklabels())
     #ax.set_xticks(rotation=45)    
     st.pyplot(fig)
     
@@ -139,7 +139,7 @@ with col2:
     axs.set_ylabel("Compensation in million $")
     axs.legend(bbox_to_anchor=(1.02, 1), loc='upper left', borderaxespad=0)
     axs.set_title(f'Highest paid players (top ten): year {tt_year}')
-    axs.set_xticks(axs.get_xticks(), axs.get_xticklabels(), rotation=60)
+    axs.set_xticks(axs.get_xticks(), axs.get_xticklabels())
     #axs.xticks(rotation=60)
     st.pyplot(figs)
     
