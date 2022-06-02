@@ -295,7 +295,7 @@ ax_gen_metrics.set_ylabel('No of players')
 ax_gen_metrics.set_title('Compensation distribution for players for 2007-2022')
 ax_gen_metrics.legend(loc='upper center')
 
-col1, col2, col3 = st.columns([1,2.5,1])
+col1, col2, col3 = st.columns([0.75,2.5,1])
 with col1:
     st.markdown('''
     *Compensation in $*
